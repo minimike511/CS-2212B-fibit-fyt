@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>ca.uwo.csd.cs2212.team14_fyt.Main</groupId>
+    <artifactId>team14_fyt</artifactId>
+    <version>0.1</version>
+
+    <repositories>
+        <repository>
+            <id>cs2212</id>
+            <name>CS2212 Course Repo</name>
+            <url>http://www.csd.uwo.ca/~mlocke2/</url>
+        </repository>
+    </repositories>
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId> log4j-api </artifactId>
+            <version> 2.0-beta9 </version>
+        </dependency>
+        <dependency>
+            <groupId> org.apache.logging.log4j </groupId>
+            <artifactId> log4j-core </artifactId>
+            <version> 2.0-beta9 </version>
+        </dependency>
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>ca.uwo.csd.cs2212</groupId>
+            <artifactId>scribejava-apis</artifactId>
+            <version>2.2.2-CS2212</version>
+        </dependency>
+        <dependency>
+            <groupId>ca.uwo.csd.cs2212</groupId>
+            <artifactId>scribejava-core</artifactId>
+            <version>2.2.2-CS2212</version>
+        </dependency>
+        <dependency>
+            <groupId>org.twitter4j</groupId>
+            <artifactId>twitter4j-core</artifactId>
+            <version>4.0.4</version>
+        </dependency>
+        <dependency>
+	<groupId>net.sourceforge.jdatepicker</groupId>
+	<artifactId>jdatepicker</artifactId>
+	<version>1.3.2</version>
+</dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId> org.apache.maven.plugins </groupId>
+                <artifactId> maven-jar-plugin </artifactId>
+                <version>2.4 </version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>ca.uwo.csd.cs2212.team14_fyt.Main.DailyDashboard</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>2.6</version>
+                <configuration>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                    <archive>
+                        <manifest>
+                            <mainClass>ca.uwo.csd.cs2212.team14_fyt.Main.DailyDashboard</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+</project>

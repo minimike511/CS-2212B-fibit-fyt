@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.9" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="ca.uwo.csd.cs2212.team14_fyt.Main.DataAccessDailySummary" project="team14_fyt" 
+    file="/team14_fyt/src/main/java/ca/uwo/csd/cs2212/team14_fyt/Main/DataAccessDailySummary.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="783" width="207" x="925" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="ca.uwo.csd.cs2212.team14_fyt.Main.DailyDashboard" project="team14_fyt" 
+    file="/team14_fyt/src/main/java/ca/uwo/csd/cs2212/team14_fyt/Main/DailyDashboard.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="693" width="166" x="268" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="ca.uwo.csd.cs2212.team14_fyt.Main.DailyModel" project="team14_fyt" 
+    file="/team14_fyt/src/main/java/ca/uwo/csd/cs2212/team14_fyt/Main/DailyModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="387" width="207" x="796" y="860"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="ca.uwo.csd.cs2212.team14_fyt.Main.Settings" project="team14_fyt" 
+    file="/team14_fyt/src/main/java/ca/uwo/csd/cs2212/team14_fyt/Main/Settings.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="405" width="186" x="42" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="ca.uwo.csd.cs2212.team14_fyt.Main.TestHeartRate" project="team14_fyt" 
+    file="/team14_fyt/src/main/java/ca/uwo/csd/cs2212/team14_fyt/Main/TestHeartRate.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="387" width="164" x="1411" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="ca.uwo.csd.cs2212.team14_fyt.Main.Panel" project="team14_fyt" 
+    file="/team14_fyt/src/main/java/ca/uwo/csd/cs2212/team14_fyt/Main/Panel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="164" x="268" y="860"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="ca.uwo.csd.cs2212.team14_fyt.Main.HeartModel" project="team14_fyt" 
+    file="/team14_fyt/src/main/java/ca/uwo/csd/cs2212/team14_fyt/Main/HeartModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="164" x="1304" y="860"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="ca.uwo.csd.cs2212.team14_fyt.Main.Configuration" project="team14_fyt" 
+    file="/team14_fyt/src/main/java/ca/uwo/csd/cs2212/team14_fyt/Main/Configuration.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="261" width="164" x="474" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="ca.uwo.csd.cs2212.team14_fyt.Main.TestDataDaily" project="team14_fyt" 
+    file="/team14_fyt/src/main/java/ca/uwo/csd/cs2212/team14_fyt/Main/TestDataDaily.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="711" width="207" x="678" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="ca.uwo.csd.cs2212.team14_fyt.Main.RefreshTokens" project="team14_fyt" 
+    file="/team14_fyt/src/main/java/ca/uwo/csd/cs2212/team14_fyt/Main/RefreshTokens.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="297" width="221" x="1043" y="860"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="ca.uwo.csd.cs2212.team14_fyt.Main.DataAccessHeartRate" project="team14_fyt" 
+    file="/team14_fyt/src/main/java/ca/uwo/csd/cs2212/team14_fyt/Main/DataAccessHeartRate.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="459" width="199" x="1172" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="12">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="13">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <association id="14">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="15" name="mainPanel"/>      
+      <multiplicity id="16" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="17">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="18" name="refresh"/>      
+      <multiplicity id="19" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="20">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="21" name="refresh"/>      
+      <multiplicity id="22" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="23">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="24">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="false" protected="false" private="true" static="true"/>    
+    <operations public="true" package="false" protected="false" private="false" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
